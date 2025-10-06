@@ -1,5 +1,3 @@
-# Neura_dynamics_RAG_chatbot
-
 # Neura Dynamics – Agentic Weather + PDF RAG
 
 ## Overview
@@ -116,3 +114,5 @@ Highlights:
 Set `LANGSMITH_API_KEY` and keep `LANGCHAIN_TRACING_V2=true` to emit traces. The app also runs a lightweight auto-eval on answers when available.
 
 
+<img width="1909" height="955" alt="Screenshot 2025-10-06 231354" src="https://github.com/user-attachments/assets/7d04eafa-2ab0-40df-938e-9d5d23e7bdee" />
+<img width="1904" height="1017" alt="Screenshot 2025-10-06 224807" src="https://github.com/user-attachments/assets/bee4b4cf-36fc-428c-b8f6-bcf14e427e23" />
