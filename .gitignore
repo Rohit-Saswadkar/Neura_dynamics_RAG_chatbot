@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.build/
+.python-version
+.venv/
+venv/
+.env
+
+# Editors/IDEs
+.vscode/
+.idea/
+
+# Tests
+.pytest_cache/
+
+# Streamlit
+.streamlit/
+
+# LangSmith
+.langsmith/
+
+# Qdrant local artifacts
+.qdrant/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (keep directory with .gitkeep)
+data/
+!data/.gitkeep
+
