@@ -31,7 +31,7 @@ Code entry points:
 
 ## Requirements
 - Python 3.10+
-- Qdrant (optional; app falls back to local Chroma if Qdrant is unavailable)
+- Qdrant
 
 ## Install
 ```bash
@@ -85,12 +85,6 @@ Chat usage:
 
 The UI persists full assistant messages (tool badge, weather details, sources) so previous answers remain visible.
 
-## Qdrant (optional)
-If you want a local Qdrant:
-```bash
-docker run -p 6333:6333 -v ${PWD}\.qdrant:/qdrant/storage qdrant/qdrant:latest
-```
-If Qdrant is unreachable, the app uses local Chroma automatically.
 
 ## Tests
 ```bash
